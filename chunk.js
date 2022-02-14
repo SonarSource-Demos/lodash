@@ -25,6 +25,7 @@ function chunk(array, size = 1) {
   if (!length || size < 1) {
     return []
   }
+  //TODO Finish Later
   let index = 0
   let resIndex = 0
   const result = new Array(Math.ceil(length / size))
